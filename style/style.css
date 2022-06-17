@@ -1,0 +1,175 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 50em){
+    header{
+        display: grid;
+        place-items: center;
+        height: 7.5em;
+        color: white;
+        background-color: black;
+        font-family: 'Passion One', cursive;
+        font-size: 1.5em;
+    }
+
+    footer{
+        text-align: center;
+        height: 2.8em;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: black;
+        padding: 0.5em;
+    }
+
+    a{
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    #header_text{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.7em;
+    }
+
+    #span_header{
+        color: white;
+        font-weight: bold;
+    }
+
+    .txt{
+        font-family: 'Sriracha', cursive;
+        font-size: 1.4em;
+        margin-top: 2em;
+    }
+
+    .letter_back_01{
+        width: 92.7%;
+        height: 25em;
+        background: white url('../imagens/joaninha.avif') center center no-repeat fixed;
+        background-size: 56em;
+        padding: 1em;
+    }
+
+    .letter_back_01_text{
+        width: 18em;
+        height: 20em;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.409);
+    }
+
+    .letter_back_02{
+        width: 92.7%;
+        height: 25em;
+        background: white url('../imagens/páginas.jpg') no-repeat fixed;
+        background-size: cover;
+        padding: 1em;
+    }
+
+    .letter_back_02_text{
+        width: 15em;
+        height: 20em;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.409);
+    }
+
+    .cred{
+        font-weight: bold;
+    }
+
+    .footer{
+        margin: auto;
+        width: 90%;
+        height: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 50.1em){
+  header{
+    height: 4em;
+    color: white;
+    font-size: 3.6em;
+    font-family: 'Passion One', cursive;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    padding: 0.5em;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+  #header_text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 0.3em;
+  }
+
+  #span_header{
+    font-weight: bold;
+  }
+
+  .letter_back_01{
+    width: 92.7%;
+    background: white url('../imagens/joaninha.avif')  no-repeat fixed;
+    background-size: cover;
+    padding: 3em;
+  }
+
+  .letter_back_01_text{
+    width: 40em;
+    height: 45em;
+    color: white;
+    background: rgba(0, 0, 0, 0.409);
+  }
+
+  .letter_back_02{
+     width: 92.7%;
+     height: 40em;
+     background: white url('../imagens/páginas.jpg') no-repeat fixed;
+     background-size: cover;
+     padding: 3em; 
+  }
+
+  .letter_back_02_text{
+    width: 35.5em;
+    height: 40em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.409);
+  }
+
+  .txt{
+    font-size: 3em;
+    font-family: 'Sriracha', cursive;
+  }
+
+  footer{
+    color: white;
+    height: 2.5em;
+    text-align: center;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .cred{
+    font-weight: bold;
+  }
+}
