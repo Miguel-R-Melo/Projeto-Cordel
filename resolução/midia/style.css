@@ -1,2 +1,66 @@
-@charset "UTF-8";
+@charset "UTF-8"; /*Organize o seu CSS de forma lógica*/
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    /* text-transform: uppercase; Nova técnica */
+    /* font-variant: small-caps; Fica em letra maiúscula, porém pequena */
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal{
+    color: black;
+    background-color: white;
+}
+
+.imagem{
+    color: white;
+    background-color: rgb(51, 51, 51);
+}
+
+.imagem > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
